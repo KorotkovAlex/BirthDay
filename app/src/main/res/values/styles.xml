@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreen</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Add" >
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:translationZ">2dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginBottom">54dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="TextAdd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:foregroundGravity">center_vertical|center_horizontal</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+
+    </style>
+</resources>
